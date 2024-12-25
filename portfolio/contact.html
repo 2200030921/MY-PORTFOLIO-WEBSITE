@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Styling for the contact section */
+        #contact {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+            justify-content: center; /* Center content horizontally */
+            margin-top: 20px;
+            gap: 30px; /* Add spacing between the contact info and image */
+            flex-wrap: wrap; /* Support responsiveness */
+        }
+
+        #contact h1 {
+            width: 100%; /* Full width for the heading */
+            text-align: center; /* Center the heading */
+            font-size: 2em; /* Large font size */
+            color: #4E2A1E; /* Dark brown color */
+            margin-bottom: 20px;
+        }
+
+        /* Styling for the contact details container (frame) */
+        .contact-info {
+            background-color: #F7ECE5; /* Light beige background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for a framed effect */
+            width: 300px; /* Fixed width for the frame */
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #4E2A1E; /* Dark brown text */
+        }
+
+        .contact-info a {
+            color: #4E2A1E; /* Dark brown color for the email link */
+            text-decoration: none;
+        }
+
+        /* Styling for the image container */
+        .center-image-container img {
+            width: 250px; /* Adjust the image size */
+            border-radius: 15px; /* Add rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better aesthetics */
+        }
+
+        /* Button styling */
+        #contact .button {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #948376; /* Muted pastel brown for button */
+            color: #F7ECE5; /* Light beige for text */
+            padding: 15px 25px; /* Increased padding for larger button */
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            width: auto; /* Flexible width */
+            margin-top: 20px;
+        }
+
+        #contact .button:hover {
+            background-color: #7A6E5E; /* Darker shade for hover effect */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <!-- Section Heading -->
+            <h1>Contact Me</h1>
+            
+            <!-- Contact Info in Frame on the left -->
+            <div class="contact-info">
+                <p><strong>Name:</strong> B. Kanaka Varshitha</p>
+                <p><strong>Email:</strong> <a href="mailto:2200030921@kluniversity.in">2200030921@kluniversity.in</a></p>
+                <p><strong>Phone:</strong> 9063060293</p>
+                
+                <!-- Download Resume Link (under the contact info box) -->
+                <a href="files/Resume.pdf" download="Resume.pdf" class="button">Download My Resume</a>
+            </div>
+            
+            <!-- Center the Image using .center-image-container on the right -->
+            <div class="center-image-container">
+                <img src="images/krishna.png" alt="B. Kanaka Varshitha's Photo">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Baratam Kanaka Varshitha. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Styling for the main about section layout */
+        #about {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+        }
+        #about p {
+            flex: 1; /* Text takes up available space */
+            text-align: left; /* Align text to the left */
+            line-height: 1.8; /* Improves readability */
+        }
+        #about img {
+            flex: 0 0 300px; /* Fix the image width */
+            border: 2px solid #d2b48c; /* Pastel brown border */
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better aesthetics */
+            filter: drop-shadow(3px 3px 0px #d2b48c); /* Doodle effect */
+        }
+        /* General button styling */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #6c757d; /* Neutral background color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #5a6268; /* Slightly darker hover effect */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <!-- About Me Text -->
+            <div>
+                <h1>About Me</h1>
+                <h2>Student at KL University | Computer Science</h2>
+                <p>
+                    Hello! My name is B Varshitha, and I am currently pursuing a B.Tech in Computer Science and specializing in Artificial Intelligence at KL University. I am passionate about leveraging technology to solve real-world problems and constantly strive to enhance my skills in this dynamic field.
+                    <br><br>
+                    With a strong interest in cloud computing, I have earned an AWS certification, which has given me a solid understanding of cloud-based solutions and services. My areas of expertise also include web development, software engineering, and artificial intelligence.
+                    <br><br>
+                    Collaboration and teamwork are at the heart of my approach. I believe in working alongside passionate individuals to create innovative solutions and successful projects. I am always eager to take on new challenges and contribute to meaningful initiatives.
+                    <br><br>
+                    Beyond academics, I enjoy participating in hackathons, exploring the latest in tech, and sharing knowledge with my peers. These activities help me stay motivated, inspired, and prepared for future opportunities.
+                    <br><br>
+                    Let's connect and collaborate in shaping the future of technology! Feel free to reach out to me on LinkedIn or GitHub.
+                </p>
+                <a href="skills.html" class="button">View My Skills</a>
+            </div>
+            <!-- About Me Image -->
+            <img src="images/krishna.png" alt="About Me Image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Baratam Kanaka Varshitha. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
