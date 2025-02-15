@@ -19,3 +19,5 @@ Welcome to my portfolio! This website showcases my skills, projects, and resume.
 
 ## Contact:
 For any inquiries, please visit the [contact page](contact.html).
+#deployment
+https://app.netlify.com/sites/varshita-portfolio/overview
